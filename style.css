@@ -1,0 +1,133 @@
+@media screen and (min-width: 800px) {
+    .generated-story,
+    .generated-story {
+        display: flex;
+    }
+}
+
+* {
+    background-color: white;
+}
+
+main {
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+
+}
+
+.logo img {
+    width: 40%;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px double #333;
+    border-top: 4px double #999;
+    padding: 20px 0;
+}
+
+.inputContainer label {
+    background-color: white;
+    margin-top: 10px;
+    font-size: large;
+    font-family: "Sukhumvit Set";
+
+}
+.inputContainer input {
+    background-color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px 30px;
+    height: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.inputContainer button {
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    font-size: 10px;
+    color: black;
+    padding: 20px;
+    width: 70px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+}
+
+.inputContainer button:after {
+    content: "";
+    background: darkred;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.inputContainer button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.generated-story {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.warningContainer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff; /* Set your desired background color */
+}
+
+.warningContainer h2 {
+    font-size: medium;
+    text-align: center;
+    margin: 0; /* Remove default margin to ensure proper centering */
+}
